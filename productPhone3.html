@@ -10,31 +10,37 @@
 </head>
 <body>
     <main class="container my-5">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
-        <li class="breadcrumb-item"><a href="catalog.html">Каталог</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Товар 1</li>
-        </ol>
-    </nav>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+            <li class="breadcrumb-item"><a href="catalog.html">Каталог</a></li>
+            <li class="breadcrumb-item active" aria-current="page">ArapIPro-2</li>
+            </ol>
+        </nav>
 
     <div class="row g-4">
         <div class="col-12 col-lg-6">
         <div class="card shadow-sm">
             <div class="placeholder-image bg-light border rounded d-flex align-items-center justify-content-center">
-            <span class="text-muted">Изображение товара</span>
+            <span class="text-muted">
+                <img
+                    class="card-img-top product-image"
+                    src="images/photo_1_2026-11-20_09-33-42.jpg"
+                    loading="lazy"
+                >
+            </span>
             </div>
         </div>
         </div>
 
         <div class="col-12 col-lg-6">
-        <span class="badge bg-success mb-3">Новинка</span>
-        <h1 class="h2">Товар 1</h1>
+        <span class="badge bg-danger">Скидка</span>
+        <h1 class="h2">Телефон ArapIPro-2</h1>
         <p class="lead text-muted">
-            Подробное описание учебного товара для страницы карточки.
+            Элетный телефон.
         </p>
 
-        <p class="fs-3 fw-bold">1000 руб.</p>
+        <p class="fs-3 fw-bold">75000 руб.</p>
 
         <div class="d-flex gap-2 mb-4">
             <a class="btn btn-primary btn-lg" href="order.html">
@@ -49,6 +55,7 @@
             Это учебная карточка товара. Данные используются для демонстрации Bootstrap-компонентов.
         </div>
         </div>
+
     </div>
 
     <section class="mt-5">
@@ -63,7 +70,7 @@
             </tr>
             <tr>
                 <th scope="row">Цена</th>
-                <td>1000 руб.</td>
+                <td>75000 руб.</td>
             </tr>
             <tr>
                 <th scope="row">Наличие</th>
